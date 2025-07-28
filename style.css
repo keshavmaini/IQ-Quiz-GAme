@@ -9,9 +9,20 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    padding: 55px;
+    margin-right: 295px;
+    font-weight: bolder;
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .main {
+
     width: 100%;
-    height: 100vh;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,4 +59,23 @@ body {
 
 input {
     cursor: pointer;
+}
+
+@media  (max-width: 750px){
+    #box {
+        width: 95%;
+        padding: 15px;
+    }
+    .btn{
+        font-size: 16px;
+        padding: 10px;
+    }
+    h1 {
+    padding: 55px;
+    margin-right: 50px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 }
